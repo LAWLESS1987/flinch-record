@@ -1,0 +1,9 @@
+{
+ "what": "Claims this repository published and then withdrew. Read by research_grade.py: a withdrawn wording may appear anywhere only if its id is cited within window lines. Empty on 2026-11-07: the README section headed Tombstones is a dated log of open items (it says: timestamp, attribute, keep the refutation, do not close); none withdraws a published claim.",
+ "window": 10,
+ "coverage_floor": 2,
+ "expect_dirs": [
+  "docs"
+ ],
+ "retractions": []
+}

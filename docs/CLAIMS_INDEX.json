@@ -1,0 +1,16 @@
+{
+ "what": "Each claim this record states, the exact sentence where it stands, how it could be reproduced, and whether it can be reproduced from this repository. Checked fail-closed by research_grade.py.",
+ "as_of": "2026-11-07",
+ "claims": [
+  {
+   "id": "FR-K1",
+   "claim": "In one session on 2026-10-18, Grok's view_x_video tool returned a fixed ~10 frames at uniform spacing, on a 20-second clip and on a 12.5-minute clip alike.",
+   "source": "README.md",
+   "exact": "In-session tool returned fixed ~10 frames, uniform spacing, no density parameter, on both a 20-second clip (0.5 fps) and a 12.5-minute clip (0.013 fps).",
+   "reproduce": "pass the listed X post ids to Grok's view_x_video tool and count the frames returned",
+   "reproduction_status": "not-reproducible-from-repo",
+   "why_not": "It needs access to Grok's tool, which is not in this repository, and the tool may have changed since 2026-10-18. The post ids are listed.",
+   "limits": "One session; the README states the cause is unestablished and names three untested hypotheses."
+  }
+ ]
+}
